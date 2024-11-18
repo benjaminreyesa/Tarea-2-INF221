@@ -1,0 +1,185 @@
+
+Analisis 1: Variando solo el tamaño de las cadenas con costos de operaciones variables entre 0 a 2:
+
+Taamaño cadenas: 6
+Cadena 1: intesg
+Cadena 2: execff
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 4
+Tiempo de ejecucion (Fuerza Bruta): 1 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 4
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.005699 ms
+
+Taamaño cadenas: 9
+Cadena 1: intesgasg
+Cadena 2: execffqcv
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 5
+Tiempo de ejecucion (Fuerza Bruta): 87.032 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 5
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.0111 ms
+
+Taamaño cadenas: 12
+Cadena 1: comerzializa
+Cadena 2: materializar
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 2
+Tiempo de ejecucion (Fuerza Bruta): 14040.8 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 2
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.017899 ms
+
+Taamaño cadenas: 13
+Cadena 1: comerzializaa
+Cadena 2: materializaci
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 4
+Tiempo de ejecucion (Fuerza Bruta): 87477 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 4
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.022202 ms
+
+Taamaño cadenas: 15
+Cadena 1: comerzializaart
+Cadena 2: materializacion
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 3      
+Tiempo de ejecucion (Fuerza Bruta): 2.71503e+006 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 3
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.028999 ms
+
+
+--------------------------------------------
+Analisis 2: Cadenas de distintos tamaños:
+
+una cadena vacia: la distancia minima sera igua lal costo de insertar los 27 caracteres de la cadena 1 a la cadena 2
+
+Cadena 1: taranguenaqasdazasawqqzxccg
+Cadena 2:
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 27
+Tiempo de ejecucion (Fuerza Bruta): 0 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 27
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.006482 ms
+
+
+Cadena 1: taranguenaqasdazasawqqzxccg
+Cadena 2: aag
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 24
+Tiempo de ejecucion (Fuerza Bruta): 2.999 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 24
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.014699 ms
+
+Cadena 1: taranguenaqe
+Cadena 2: taranguenaqe
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 0
+Tiempo de ejecucion (Fuerza Bruta): 13685 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 0
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.017899 ms
+
+Cadena 1: abcdefgh
+Cadena 2: badcfehg
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 8
+Tiempo de ejecucion (Fuerza Bruta): 18 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 8
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.009499 ms
+
+-------------------------------------------------------------------
+Analisis 3: uso de la transposicion
+
+Caso 1 con y sin transposicion: 
+
+Cadena 1: abcdefghij
+Cadena 2: badcfehgji
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 5     -   Distancia minima de edicion (Fuerza Bruta) Sin Transposicion: 10
+Tiempo de ejecucion (Fuerza Bruta): 507.999 ms    -   Tiempo de ejecucion (Fuerza Bruta Sin Transposicion): 429.997 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 5    -   Distancia minima de edicion (Programacion Dinamica Sin Trabnsposicion): 10
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.012902 ms  -   Tiempo promedio de ejecucion (Programacion Dinamica Sin Transposicion): 0.011499 ms
+
+
+Caso 2 con y sin transposicion: 
+
+Cadena 1: transpchar
+Cadena 2: tanrsphcar
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 3  -  Distancia minima de edicion (Fuerza Bruta) Sin Transposicion: 4
+Tiempo de ejecucion (Fuerza Bruta): 456.032 ms  - Tiempo de ejecucion (Fuerza Bruta Sin Transposicion): 423.997 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 3  -  Distancia minima de edicion (Programacion Dinamica Sin Trabnsposicion): 4
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.013 ms  -  Tiempo promedio de ejecucion (Programacion Dinamica Sin Transposicion): 0.011602 ms
+
+Caso 3 con y sin transposicion: 
+
+Cadena 1: overlapxyz
+Cadena 2: olevrpxyz
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 4  -  Distancia minima de edicion (Fuerza Bruta) Sin Transposicion: 5
+Tiempo de ejecucion (Fuerza Bruta): 190.03 ms - Tiempo de ejecucion (Fuerza Bruta Sin Transposicion): 175.033 ms
+
+
+Distancia minima de edicion (Programacion Dinamica): 4 - Distancia minima de edicion (Programacion Dinamica Sin Trabnsposicion): 5
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.011799 ms - Tiempo promedio de ejecucion (Programacion Dinamica Sin Transposicion): 0.010699 ms
+
+Caso 4 con y sin transposicion: 
+
+Cadena 1: switcharoo
+Cadena 2: wsithacroo
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 3 - Distancia minima de edicion (Fuerza Bruta) Sin Transposicion: 4
+Tiempo de ejecucion (Fuerza Bruta): 487.031 ms - Tiempo de ejecucion (Fuerza Bruta Sin Transposicion): 429.033 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 3 - Distancia minima de edicion (Programacion Dinamica Sin Trabnsposicion): 4
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.013102 ms - Tiempo promedio de ejecucion (Programacion Dinamica Sin Transposicion): 0.011497 ms
+
+
+Caso 5 con y sin transposicion: 
+
+Cadena 1: abcdefgxyz
+Cadena 2: bacdfegxyz
+
+Iniciando calculo con Fuerza Bruta...
+Distancia minima de edicion (Fuerza Bruta): 2 - Distancia minima de edicion (Fuerza Bruta) Sin Transposicion: 4
+Tiempo de ejecucion (Fuerza Bruta): 475.021 ms - Tiempo de ejecucion (Fuerza Bruta Sin Transposicion): 433.001 ms
+
+Iniciando calculo con Programacion Dinamica...
+Distancia minima de edicion (Programacion Dinamica): 2 - Distancia minima de edicion (Programacion Dinamica Sin Trabnsposicion): 4
+Tiempo promedio de ejecucion (Programacion Dinamica): 0.012799 ms  - Tiempo promedio de ejecucion (Programacion Dinamica Sin Transposicion): 0.0116 ms
+
+-----------------
